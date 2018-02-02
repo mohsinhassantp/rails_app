@@ -1,0 +1,8 @@
+<% provide(:title, 'home') %>
+<!DOCTYPE html>
+<html>
+<head><title>ddd<% yield(:title) %></title></head>
+<body>
+Sample home page2<%= full_title(yield(:title)) %>
+</body>
+</html>
